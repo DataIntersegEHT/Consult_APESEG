@@ -1,0 +1,25 @@
+{
+  "type": "record",
+  "namespace": "placa_soat",
+  "name": "placa_soat.avro",
+  "fields": [
+    { "name": "NombreCompania", "type": ["string", "null"] },
+    { "name": "FechaInicio", "type": ["string", "null"] },
+    { "name": "FechaFin", "type": ["string", "null"] },
+    { "name": "Placa", "type": ["string", "null"] },
+    { "name": "NumeroPoliza", "type": ["string", "null"] },
+    { "name": "NombreUsoVehiculo", "type": ["string", "null"] },
+    { "name": "NombreClaseVehiculo", "type": ["string", "null"] },
+    { "name": "Estado", "type": ["string", "null"] },
+    { "name": "CodigoUnicoPoliza", "type": ["string", "null"] },
+    { "name": "CodigoSBSAseguradora", "type": ["string", "null"] },
+    { "name": "FechaControlPolicial", "type": ["string", "null"] },
+    { "name": "NombreContratante", "type": ["string", "null"] },
+    { "name": "NombreUbigeo", "type": ["string", "null"] },
+    { "name": "NumeroSerieMotor", "type": ["string", "null"] },
+    { "name": "NumeroSerieChasis", "type": ["string", "null"] },
+    { "name": "NumeroAseguradora", "type": ["string", "null"] },
+    { "name": "TipoCertificado", "type": ["string", "null"] },
+    { "name": "FechaCreacion", "type": ["string", "null"] }
+  ]
+}
